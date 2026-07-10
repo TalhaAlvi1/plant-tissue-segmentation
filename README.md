@@ -49,7 +49,7 @@ plant-tissue-segmentation/
 ├── requirements.txt
 ├── input/                      # Place source images here
 ├── output/                     # Segmented results are written here
-└── assets/                     # Example images used in this README
+└── assets/                     # Example images used
 ```
 
 ## Installation
