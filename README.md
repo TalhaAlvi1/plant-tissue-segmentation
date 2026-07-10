@@ -11,7 +11,12 @@ Computer vision pipeline that isolates plant leaves/stems from in-vitro test tub
 
 | Input | Segmented Output |
 |---|---|
-| ![Input](assets/input_example.jpeg) | ![Output](assets/output_example.jpeg) |
+| <img width="1080" height="1033" alt="WhatsApp Image 2026-05-18 at 8 25 21 PM" src="https://github.com/user-attachments/assets/0e355901-9af0-4ce4-9cc1-70b09c555a97" /> | <img width="1080" height="1033" alt="2" src="https://github.com/user-attachments/assets/a133b42b-5448-40f6-8ad5-e51aa962cf37" /> |
+
+| Input | Segmented Output |
+|---|---|
+|<img width="1080" height="1044" alt="WhatsApp Image 2026-05-18 at 8 25 29 PM" src="https://github.com/user-attachments/assets/6c687594-2805-4b5a-a606-3296dcc9b32e" />  |  <img width="1080" height="1044" alt="1" src="https://github.com/user-attachments/assets/54de515e-6ac9-467e-9689-1f97fc20b577" />  |
+
 
 ## Features
 
@@ -82,13 +87,6 @@ cutoff = int(height * 0.60)   # keep top 60%
 lower1 = np.array([35, 40, 30])
 upper1 = np.array([85, 255, 255])
 ```
-
-## Roadmap
-
-- [ ] Deep learning segmentation (U-Net / Mask R-CNN) for higher precision
-- [ ] Auto-tuned parameters per image
-- [ ] Per-tube export as individual files
-- [ ] Batch progress bar
 
 ## License
 
