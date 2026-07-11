@@ -88,6 +88,9 @@ lower1 = np.array([35, 40, 30])
 upper1 = np.array([85, 255, 255])
 ```
 
-## License
+## 📄 License
 
-MIT
+Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for details.
+
+---
+
